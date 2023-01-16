@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Express Dev Skills Lab</title>
+  </head>
+
+  <body>
+    <h1>Dev Skills</h1>
+    <a href="/skills/new">ADD SKILL</a>
+    <ul>
+      <% skills.forEach(function(s) { %>
+      <li>
+        <a href="skills/<%= s.id %>"> <%= s.skill %> </a>
+      </li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
