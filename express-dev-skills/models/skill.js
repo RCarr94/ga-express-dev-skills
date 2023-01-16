@@ -1,9 +1,9 @@
 const skills = [
-  { id: 001, skill: "HTML", level: "3/5" },
-  { id: 002, skill: "CSS", level: "3/5" },
-  { id: 003, skill: "JavaScript", level: "3/5" },
-  { id: 004, skill: "NodeJS & Express", level: "2/5" },
-  { id: 005, skill: "MondoDB & Mongoose", level: "2/5" },
+  { id: 001, skill: "HTML", level: "⭐️⭐️⭐️" },
+  { id: 002, skill: "CSS", level: "⭐️⭐️⭐️" },
+  { id: 003, skill: "JavaScript", level: "⭐️⭐️⭐️" },
+  { id: 004, skill: "NodeJS & Express", level: "⭐️⭐️" },
+  { id: 005, skill: "MondoDB & Mongoose", level: "⭐️⭐️" },
 ];
 
 function getAll() {
